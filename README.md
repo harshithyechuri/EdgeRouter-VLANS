@@ -11,7 +11,7 @@ configure
 (In my case I am creating vlans for 'eth2')
 ```
 set interfaces ethernet eth2 vif 100 address 192.168.100.1/24
-set interfaces ethernet eth2 vif 100 description '*VLAN-Name*'
+set interfaces ethernet eth2 vif 100 description *'VLAN-Name'*
 
 commit
 ```
