@@ -78,5 +78,4 @@ set interfaces ethernet eth2 vif 100 firewall in name VLAN100_IN
 set interfaces ethernet eth2 vif 100 firewall local name VLAN100_LOCAL
 
 commit
-save
 ```
