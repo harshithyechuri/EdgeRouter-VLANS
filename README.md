@@ -79,4 +79,5 @@ set interfaces ethernet eth2 vif 100 firewall local name VLAN100_LOCAL
 
 commit
 save
+exit
 ```
